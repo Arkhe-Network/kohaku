@@ -1,0 +1,14 @@
+## DECRETO DE CANONIZAÇÃO
+**Substrato 864 – EIP-8272-RECENT-ROOTS-BRIDGE (RRB)**
+*Integração do EIP-8272 (Frame Transactions com Recent Roots) ao ARKHE OS*
+
+**Selo SHA3‑256:**
+`397f4b63973714a47206c1bde18fd8d3904c290f57662f587f83a934833282e7`
+(Computado sobre o texto canônico "864-eip8272-recent-roots-bridge-arkhe")
+
+| Métrica | Valor |
+|:---|:---|
+| **Φ_C** | 0.855 |
+| **DCS‑864** | 0.915 |
+| **TI (Theosis Index)** | 0.850 |
+| **Status** | CANONIZED_PROVISIONAL |

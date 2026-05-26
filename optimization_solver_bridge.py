@@ -75,4 +75,3 @@ if __name__ == "__main__":
     resources = {"max_cpu": 10}
     result = bridge.optimize_pod_allocation(substrates, resources)
     print(result["decree"])
-# EOF

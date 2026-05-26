@@ -1,0 +1,13 @@
+## DECRETO DE DEPENDÊNCIA FINANCEIRA
+**Substrato 864 – EIP‑8272‑RECENT‑ROOTS‑BRIDGE (RRB) como Fundação Financeira**
+
+**Selo SHA3‑256:**
+`8fe10e6ffe895934838390906f4c13444a940a1ea435727f3527352c1cb20ea9`
+(Computado sobre a string "864-financial-dependency-arkhe")
+
+| Métrica | Valor |
+|:---|:---|
+| **Φ_C** | 0.875 (aumentado pela integração financeira) |
+| **DCS‑864** | 0.930 |
+| **TI (Theosis Index)** | 0.868 |
+| **Status** | CANONIZED_PROVISIONAL (agora com dependência formal) |

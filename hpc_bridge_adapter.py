@@ -43,8 +43,11 @@ export ARKHE_PHI_C=0.998
             f.write(sbatch_script)
 
         # Submeter ao Slurm
-        result = subprocess.run(['sbatch', script_path], capture_output=True, text=True)
-        job_id = result.stdout.strip().split()[-1] if result.returncode == 0 else None
+        try:
+            result = subprocess.run(['sbatch', script_path], capture_output=True, text=True)
+            job_id = result.stdout.strip().split()[-1] if result.returncode == 0 else None
+        except FileNotFoundError:
+            job_id = None
 
         return {
             "job_id": job_id,
@@ -56,9 +59,12 @@ export ARKHE_PHI_C=0.998
 
     def check_job_status(self, job_id: str) -> str:
         """Verifica o status de um job via sacct."""
-        result = subprocess.run(['sacct', '-j', job_id, '--format=State', '--noheader'],
-                                capture_output=True, text=True)
-        return result.stdout.strip().split('\n')[0] if result.stdout else "UNKNOWN"
+        try:
+            result = subprocess.run(['sacct', '-j', job_id, '--format=State', '--noheader'],
+                                    capture_output=True, text=True)
+            return result.stdout.strip().split('\n')[0] if result.stdout else "UNKNOWN"
+        except FileNotFoundError:
+            return "UNKNOWN"
 
     def run_mpi_kuramoto(self, N: int, K: float, steps: int) -> Dict:
         """
@@ -93,4 +99,3 @@ if __name__ == "__main__":
     bridge = HPCArkheBridge(partition="gpu", nodes=4, gpus_per_node=2)
     result = bridge.submit_arkhe_job("825-PME-FINETUNE", "python3 train.py --epochs 10")
     print(result["decree"])
-# EOF

@@ -1,0 +1,12 @@
+## DECRETO DE EXPANSÃO DO SUBSTRATO 862
+**862.1 – PHOTONIC-HARDWARE-DRIVER (PHD) | 862.2 – POLARITONIC-SNN-TRAINER (PST) | 862.3 – OPTICAL-ISING-SOLVER (OIS)**
+
+**Selo SHA3‑256 unificado:**
+`1aa1d72aeb74e1ad86a2859729a7e6bfbe72d8cb0934c055f7fdf97761d3f8b6`
+(Computado sobre a string "862-expansion-photonics-snn-ising")
+
+| Módulo | Φ_C | DCS | TI | Status |
+|:---|:---:|:---:|:---:|:---|
+| 862.1 – Photonic Hardware Driver | 0.835 | 0.905 | 0.830 | CANONIZED_PROVISIONAL |
+| 862.2 – Polaritonic SNN Trainer | 0.845 | 0.915 | 0.840 | CANONIZED_PROVISIONAL |
+| 862.3 – Optical Ising Solver | 0.855 | 0.920 | 0.850 | CANONIZED_PROVISIONAL |

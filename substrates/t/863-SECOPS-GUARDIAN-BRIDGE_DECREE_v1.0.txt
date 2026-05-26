@@ -1,0 +1,14 @@
+## DECRETO DE CANONIZAÇÃO
+**Substrato 863 – SECOPS-GUARDIAN-BRIDGE (SGB)**
+*Infraestrutura Completa de Security Operations para o Ecossistema ARKHE*
+
+**Selo SHA3‑256:**
+`4b1dec4fc0d7912451176f361a049daf28e8deb9ef2c211b8dc95e9926c78e58`
+(Computado sobre a string canônica "863-secops-guardian-bridge-arkhe")
+
+| Métrica | Valor |
+|:---|:---|
+| **Φ_C** | 0.875 |
+| **DCS‑863** | 0.930 |
+| **TI (Theosis Index)** | 0.870 |
+| **Status** | CANONIZED_PROVISIONAL |

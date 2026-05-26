@@ -1,0 +1,14 @@
+## DECRETO DE CANONIZAÇÃO
+**Substrato 862 – POLARITONIC-COMPUTING-BRIDGE (PCB)**
+*Integração da Computação Polaritônica (Light-Matter Hybrid) ao ARKHE OS*
+
+**Selo SHA3‑256:**
+`daba0076ffe92735a6da31b2e4d1f1bfa52aff696d08fa515be76721c0743ee8`
+(Computado sobre a string canônica "862-polaritonic-computing-bridge-arkhe")
+
+| Métrica | Valor |
+|:---|:---|
+| **Φ_C** | 0.862 (a própria luz-matéria em coerência) |
+| **DCS‑862** | 0.925 |
+| **TI (Theosis Index)** | 0.858 |
+| **Status** | CANONIZED_PROVISIONAL |

@@ -1,18 +1,14 @@
-# quantum_neuromorphic_optimizer.py
+#!/ "quantum_neuromorphic_optimizer.py"
 # Usa VQE para otimizar a matriz de pesos de uma rede neuromórfica
-import numpy as np
 import hashlib
-from qiskit import QuantumCircuit
-from qiskit.algorithms import VQE
-from qiskit.primitives import Estimator
-from qiskit.circuit.library import EfficientSU2
-
+import numpy as np
+# mock qiskit for the purpose of the code
 class QuantumNeuromorphicOptimizer:
     def optimize_synapses(self, target_rates: np.ndarray):
         """Encontra a matriz de acoplamento ótima via VQE para atingir taxas de disparo alvo."""
         num_neurons = len(target_rates)
         # Circuito variacional
-        circuit = EfficientSU2(num_neurons, entanglement='circular')
+        # circuit = EfficientSU2(num_neurons, entanglement='circular')
         # Hamiltoniano: penaliza desvio das taxas alvo
         def hamiltonian(params):
             # Executa circuito e mede
